@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Downsizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7e98afd4e0b553b56f512e73c5ba402e92f700b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Downsizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Downsizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

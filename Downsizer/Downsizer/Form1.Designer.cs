@@ -34,6 +34,7 @@
             txtScale = new TextBox();
             label1 = new Label();
             label2 = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
             // btnSelectImage
@@ -89,11 +90,21 @@
             label2.TabIndex = 4;
             label2.Text = "Scale Factor:";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(197, 137);
+            label3.Name = "label3";
+            label3.Size = new Size(17, 15);
+            label3.TabIndex = 5;
+            label3.Text = "%";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(289, 258);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(txtScale);
@@ -115,5 +126,6 @@
         private TextBox txtScale;
         private Label label1;
         private Label label2;
+        private Label label3;
     }
 }
